@@ -30,14 +30,6 @@ public class DecodeDriver {
 			BufferedWriter out = new BufferedWriter(new FileWriter("decoded" + i + ".txt"));
 			out.write(MessageArr[i].getDecoded());
 			out.close();
-			/*
-			 * encoded0.txt: Standard frequency of letters in the English language
-			 * encoded1.txt: Declaration of Independence
-			 * encoded2.txt: Alice's Advedures in Wonderland
-			 * encoded3.txt: Adventures of Sherlock Homes: A Scandal in Bohemia by Sir Arthur Conan Doyle
-			 * encoded4.txt: Adventures of Huckleberry Finn by Mark Twain
-			 * encoded5.txt: Pride and Predjudice by Jane Austen
-			 */
 		}			
 	}
 }
